@@ -66,6 +66,11 @@ body{
     flex-direction: column ;
 }
 
+.logo::before{
+    content: url(/img/header/Без\ имени-1\ 1.png);
+    width: 25.34px;
+    height: 25px;
+}
 
 ._container{
     min-width:1200px;
@@ -221,3 +226,33 @@ body{
     width: 100%;
 }
 
+.portfolio-1{
+    padding:65px 100px 142px 100px;
+
+}
+
+.title{
+    margin-bottom: 40px;
+}
+
+.image__portfolio{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio__image-1{
+    max-width: 488px;
+}
+
+.portfolio__image-2{
+    max-width: 600px;
+}
+
+.portfolio__image-3{
+    max-width: 600px;
+}
+
+.portfolio__image-4{
+    max-width: 489px;
+}
